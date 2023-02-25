@@ -1,0 +1,83 @@
+/*  General */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .heading {
+  font-family: "Courier New", Courier, monospace;
+  color: grey;
+  font-size: 5em;
+}
+
+.liste {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3em;
+  color: grey;
+}
+ */
+
+/* body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+  display: flex;
+  background-color: #543DF4;
+  width:fit-content;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  border: 2px black solid;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+div:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+ */
+
+ #divForm {
+    height: 39vh;
+    width: 20vw;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+
+#divForm>h2 {
+    text-align: center;
+}
+
+#divForm div input[type=submit] {
+    width: 7vw;
+}
+
+#divForm div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pResult {
+    text-align: center;
+}
